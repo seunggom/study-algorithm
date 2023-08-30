@@ -63,6 +63,8 @@ fun calculateWorm(maxY: Int, maxX: Int, baechooCount: Int, points: Array<Array<B
             right = true
         }
 
+        // TODO: 상하좌우 다 가야해
+
         if (!right && !down) {
             result++
         } else continue
